@@ -1,0 +1,36 @@
+.container{
+  width: 1900;
+  height: 1080;
+  background-color: red;
+  background-image: url("https://autoradar.top/wp-content/uploads/2021/01/bmw-x8.jpg");
+  /* background-size: cover; */
+  /* cover =>background image parent  elementni to'liq qoplaydi */
+  background-size: contain;
+  /* contain => background image parent elementni ichiga to;liq tushadi qayta takrorlanadi */
+  background-repeat: no-repeat;
+}
+.container-linear{
+  width: 1200px;
+  height: 700px;
+  background: linear-gradient(217deg, yellow, orange);
+}
+
+.container-fluid{
+  width: 100vw;
+  /* view-width ekran uznligi */
+  height: 100vw;
+  /* view-heigth ekran balandligi */
+  background-color: green;
+}
+
+.title{
+  font-size: 100px;
+  background: linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  /* chrome, safari, opera eski, ... yandex, edge */
+  -webkit-text-fill-color: transparent;
+  /* PREFIX */
+  /* -ms => microsoft edge */
+  /* -o => opera */
+  /* -webkit => chrome, safari, moz, ios, opera */
+}
